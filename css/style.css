@@ -53,12 +53,15 @@ p {
   color: #333;
 }
 .bg-primary {
-  background: #333;
-  color: #f7c08a;
+  color: #333;
+  background: #f7c08a;
 }
 .btn-light {
   background: #f4f4f4;
   color: #333;
+}
+.clr {
+  clear: both;
 }
 /* Nav bar Style Start */
 .nav-bar {
@@ -115,6 +118,7 @@ p {
 /* Home Info */
 #home-info {
   height: 400px;
+  /* min-height: 500px; */
 }
 #home-info .info-img {
   float: left;
@@ -132,4 +136,21 @@ p {
 }
 #home-info .info-content p {
   padding-bottom: 30px;
+}
+/* Features */
+.box {
+  float: left;
+  width: 33%;
+  padding: 50px;
+  text-align: center;
+}
+.box i {
+  margin-bottom: 10px;
+}
+/* Main Footer */
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 20px;
 }
